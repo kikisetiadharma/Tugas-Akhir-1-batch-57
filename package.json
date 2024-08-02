@@ -1,0 +1,19 @@
+{
+  "name": "tugas-akhir",
+  "version": "1.0.0",
+  "description": "web automatiion with web driver.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx run ./wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "kikisd",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.39.0",
+    "@wdio/browser-runner": "^8.39.1",
+    "@wdio/cli": "^8.39.1",
+    "@wdio/mocha-framework": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0"
+  }
+}
